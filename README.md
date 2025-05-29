@@ -31,7 +31,7 @@ DBFX is a lightweight, thread-safe utility for managing **JDBC connections and q
     <dependency>
         <groupId>com.github.WaqarAhmad321</groupId>
         <artifactId>dbfx-framework</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>Tag</version>
     </dependency>
 </dependencies>
 ```

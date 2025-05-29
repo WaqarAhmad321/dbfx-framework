@@ -6,7 +6,7 @@ import com.zaxxer.hikari.HikariDataSource;
 
 import java.sql.*;
 
-public class DatabaseConfig {
+public class DBConnectionPool {
     private static HikariDataSource dataSource;
 
     public static void initializeDB(String url, String username, String password) {

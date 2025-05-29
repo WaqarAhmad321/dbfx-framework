@@ -4,12 +4,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dbfx</groupId>
+    <groupId>com.github.WaqarAhmad321</groupId>
     <artifactId>dbfx-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    <name>JavaFX DB Utils</name>
+    <name>DBFX</name>
     <description>Thread-safe database utilities for JavaFX apps</description>
+    <url>https://github.com/WaqarAhmad321/dbfx-framework</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>waqarahmad</id>
+            <name>Waqar Ahmad</name>
+            <email>codewithwaqarahmad@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/WaqarAhmad321/dbfx-framework</url>
+        <connection>scm:git:git://github.com/WaqarAhmad321/dbfx-framework.git</connection>
+        <developerConnection>scm:git:ssh://github.com:WaqarAhmad321/dbfx-framework.git</developerConnection>
+    </scm>
+
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>

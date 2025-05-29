@@ -79,8 +79,6 @@ public class DBUtils {
         return task;
     }
 
-    // --- Our special lambda helpers ---
-
     // Like Consumer but can throw SQLExceptions.
     // Use to fill in query parameters.
     @FunctionalInterface
